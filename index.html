@@ -11,12 +11,20 @@
     <nav>
       <ul>
         <li class="gmail-link">
-          <a href="">Gmail</a>
+          <a
+            href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox"
+            target="_blank"
+            >Gmail</a
+          >
         </li>
         <li class="img-link">
-          <a href="">Imágenes</a>
+          <a
+            href="https://www.google.com.co/imghp?hl=en&tab=wi&ogbl"
+            target="_blank"
+            >Imágenes</a
+          >
         </li>
-        <li class="google-services" title="Google Apps">
+        <li class="google-apps" title="Google Apps">
           <a href="">
             <span></span>
             <span></span>
@@ -29,7 +37,11 @@
             <span></span>
           </a>
         </li>
-        <li class="login-button">Iniciar sesión</li>
+        <li class="login-button">
+          <a href="https://accounts.google.com/" target="_blank">
+            Iniciar sesión
+          </a>
+        </li>
       </ul>
     </nav>
 
@@ -38,7 +50,9 @@
 
       <div class="search-box" for="search">
         <img class="search-icon" src="img/search-icon.png" alt="" />
-        <input type="text" title="Buscar" />
+        <form id="search-form" action="">
+          <input type="text" title="Buscar" />
+        </form>
         <span class="close-search">&Cross;</span>
         <img class="voice-search-icon" src="img/voice-search-icon.png" alt="" />
         <span class="voice-search-tooltip">Búsqueda por voz</span>
@@ -70,5 +84,6 @@
         </p>
       </div>
     </footer>
+    <script src="js/main.js"></script>
   </body>
 </html>
